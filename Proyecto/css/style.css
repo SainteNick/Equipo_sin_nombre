@@ -1,0 +1,148 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cascadia Code', sans-serif;
+  font-size: 17px;
+  background: #0e0e0e;
+  color: #ddd;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+/* Navegation */
+.nav-main {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 20px 0;
+}
+
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul a {
+  padding: 7px 0;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+ 
+/* Mapa */
+.uct-map {
+  margin: 15px auto;
+  padding: 15px 30px;
+  width: 100%;
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-map {
+  padding: 15px 20px;
+  width: 95%;
+  height: 600px;
+  margin: auto;
+  /* Hay que reescalar los px de la imagen */
+  border-radius: 10px;
+  background: url('../img/uct-map-csjp.png') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.textos {
+  padding: 5px;
+  background: #0e0e0e7a;
+  border-radius: 5px;
+}
+.fa-solid {
+  font-size: 28px;
+}
+
+.fa-chevron-right:hover,
+.fa-chevron-left:hover {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/* Cards */
+
+h1 {
+  text-align: center;
+}
+.recomendation {
+  display: grid;
+  width: 95%;
+  margin: 20px auto;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+}
+
+.recomendation div {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  background: #171717;
+  border-radius: 5px;
+}
+
+.recomendation img {
+  border-radius: 5px;
+  background: #1b1b1b;
+  width: 100%;
+  height: 250px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 0;
+  background: #1b1b1b;
+  text-align: center;
+  border: 3px solid #1b1b1b;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #202020;
+  border: 3px solid #272727;
+}
+
+.recomendation h3 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.recomendation p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.fa-cart-shopping {
+  font-size: 20px;
+}
