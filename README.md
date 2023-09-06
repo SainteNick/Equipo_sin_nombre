@@ -2,8 +2,19 @@
 
 ## **Nombre del proyecto: "Student Hub"**
 
-**Objetivo del Proyecto**: Crear una página web que proporcione herramientas a los estudiantes de la Universidad Catolica de Temuco (campus San Juan Pablo II), estas herramientas buscan suplir ciertas necesidades tales como: pedir libros en la biblioteca de forma remota, comprar en cafetería de forma remota (solo con Sodexo Junaeb), tener a mano mapa de la univerdad con puntos de interés, y un mapa del transporte de la ciudad que se dirija hacia la universidad.
+**Objetivo del Proyecto:** Crear una página web que proporcione herramientas a los estudiantes de la Universidad Catolica de Temuco (campus San Juan Pablo II), estas herramientas buscan suplir ciertas necesidades tales como: pedir libros en la biblioteca de forma remota, comprar en cafetería de forma remota (solo con Sodexo Junaeb), tener a mano mapa de la univerdad con puntos de interés, y un mapa del transporte de la ciudad que se dirija hacia la universidad.
 
+**Alcance del Proyecto:** Suplir ciertas necesidades tales como: pedir libros de la biblioteca de forma remota, comprar en cafetería de forma remota (solo con Sodexo Junaeb), tener a mano mapa de la univerdad con puntos de interés, y un mapa del transporte de la ciudad que se dirija hacia la universidad.
+
+_______________
+
+### **Herramientas a utilizar/utilizadas durante el desarrollo del proyecto**
+
+- LucidChart
+- Visual Studio Code
+- ...
+- ...
+- ...
 _______________
 
 ### **Opciones de la Web**
@@ -23,14 +34,5 @@ _______________
 -Mapa de transporte:
  - Aquí se mostrará un mapa de la ciudad, pero, solo desde la zona central de la ciudad hasta la universidad. Este mapa contendrá las zonas en donde se puede tomar el transporte, sus rutas, tiempos estimados de llegada a la universidad, etc.
 
-_______________
-
-### **Herramientas a utilizar/utilizadas durante el desarrollo del proyecto**
-
-- LucidChart
-- Visual Studio Code
-- ...
-- ...
-- ...
 _______________
 
