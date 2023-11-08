@@ -12,8 +12,8 @@ _______________
 
 - LucidChart
 - Visual Studio Code
-- ...
-- ...
+- XAMPP
+- Navegador Web
 - ...
 _______________
 
